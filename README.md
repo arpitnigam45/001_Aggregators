@@ -7,6 +7,15 @@ Poverty is an important indicator of economic well-being. Local and State policy
 ### Dependencies
 
  `Python 3.7.6`
+ ```
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
+scipy
+statsmodels
+```
 ### Build with
 
 The project was built using `Jupyter Notebook` hence the code is in ipynb format.
@@ -22,3 +31,14 @@ The project was built using `Jupyter Notebook` hence the code is in ipynb format
 import ipynb.fs.full.test
 ```
 If you have access to Jupyter Notebook simply download the add link to clone file and opening it in Jupyter Notebook.
+
+### File description
+
+Data preprocessing.ipynb: cleans and preprocesses the original dataset. optionally export the dataset to a csv file.
+Data Visualisation.ipynb: contains the code for basic data visualisation of some important features of the dataset.  
+acs-2018-mlr.ipynb: this file contains the code for building and summarizing the multiple linear regression model.
+acs-2018-classification.ipynb: summarizes the three classification models(random forest, logit regression and SVM).
+
+### Usage
+
+```pip install the required libraries and configure the directory for the csv files while importing them into the dataframe.```
